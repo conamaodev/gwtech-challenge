@@ -9,7 +9,7 @@ O front end do teste está disponível em [WEB](https://gwtech-web.herokuapp.com
 
 - Acesse a pasta da api e instale as dependências
 ```
-   cd api
+   cd gwtech-challenge/api
    npm i
 ```
 
@@ -19,9 +19,9 @@ O front end do teste está disponível em [WEB](https://gwtech-web.herokuapp.com
    npm start
 ```
 
-- Volte para a raiz do projeto, acesse a pasta front e instale as dependencias
+- Abra outro terminal, acesse a pasta front e instale as dependencias
 ```
-   cd ../front
+   cd gwtech-challenge/front
    yarn install
 ```
 
