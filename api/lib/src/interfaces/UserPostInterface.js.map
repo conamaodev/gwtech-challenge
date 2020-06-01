@@ -1,0 +1,1 @@
+{"version":3,"file":"UserPostInterface.js","sourceRoot":"","sources":["../../../gwtech_api/src/interfaces/UserPostInterface.ts"],"names":[],"mappings":"","sourcesContent":["import PostInterface from './PostInterface';\n\nexport default interface UserPostInterface {\n    id: number;\n    name: string;\n    company: string;\n    posts: PostInterface[];\n}\n"]}

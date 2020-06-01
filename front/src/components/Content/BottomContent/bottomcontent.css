@@ -1,0 +1,43 @@
+.bottom_content {
+    display: grid;
+    grid-template-rows: max-content;
+    width: 100%;
+}
+
+.filters {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.filters > input {
+    border: 1px #e9e9e9 solid;
+    background: transparent;
+    width: 220px;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.cards {
+    grid-template-columns: repeat(auto-fit, 249px);
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    place-self: baseline;
+}
+
+.cards.large {
+    grid-template-columns: repeat(auto-fit, 300px);
+}
+
+@media (min-width: 600px) {
+    .filters > input {
+        min-width: 450px;
+    }
+    .cards.large {
+        grid-template-columns: repeat(auto-fit, 500px);
+    }
+}

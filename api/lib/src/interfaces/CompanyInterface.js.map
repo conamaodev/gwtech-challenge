@@ -1,0 +1,1 @@
+{"version":3,"file":"CompanyInterface.js","sourceRoot":"","sources":["../../../gwtech_api/src/interfaces/CompanyInterface.ts"],"names":[],"mappings":"","sourcesContent":["export default interface CompanyInterface {\r\n    name: string;\r\n    catchPhrase: string;\r\n    bs: string;\r\n}"]}

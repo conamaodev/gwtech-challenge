@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": false,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "suppressExcessPropertyErrors": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "baseUrl": "./gwtech_api",
+    "skipLibCheck": true
+  },
+  "include": [
+    "gwtech_api"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*", "**/__mocks__/*"]
+}

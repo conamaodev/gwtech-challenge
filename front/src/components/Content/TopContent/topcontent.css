@@ -1,0 +1,13 @@
+.top_content {
+    place-self: center;
+}
+
+.top_content > h1 {
+    font-size: 1.3em;
+}
+
+@media (min-width: 600px) {
+    .top_content > h1 {
+        font-size: 1.5em;
+    }
+}

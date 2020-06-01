@@ -1,0 +1,1 @@
+{"version":3,"file":"PostInterface.js","sourceRoot":"","sources":["../../../gwtech_api/src/interfaces/PostInterface.ts"],"names":[],"mappings":"","sourcesContent":["export default interface PostInterface {\n    userId: number;\n    id: number;\n    title: string;\n    body: string;\n}\n"]}

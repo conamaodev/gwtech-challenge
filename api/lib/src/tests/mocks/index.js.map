@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../gwtech_api/src/tests/mocks/index.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,+CAA6B;AAC7B,kEAAgD;AAChD,+CAA6B","sourcesContent":["export * from './users.data';\nexport * from './usersWithoutCompanyGroup.data';\nexport * from './posts.data';\n"]}

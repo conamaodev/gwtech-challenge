@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../gwtech_api/src/config/index.ts"],"names":[],"mappings":";;;AAAa,QAAA,MAAM,GAAG;IAClB,MAAM,EAAE;QACJ,IAAI,EAAE,CAAC,OAAO,CAAC,GAAG,CAAC,IAAI;KAC1B;CACJ,CAAC","sourcesContent":["export const config = {\n    server: {\n        port: +process.env.PORT\n    },\n};"]}

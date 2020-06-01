@@ -1,0 +1,41 @@
+.breadcumb {
+    display: flex;
+    align-items: center;
+    height: 39px;
+    background: #f7f7f7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.breadcumb > ol {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .breadcumb > ol{
+        padding: 0;
+        justify-content: center;
+    }
+}
+
+.breadcumb > ol > li {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcumb > ol > li, .breadcumb > ol > li > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.breadcumb > ol > li > p {
+    color: #434343;
+}
+
+.breadcumb > ol > li.separator {
+    margin: 0 8px;
+    padding: 0 4px;
+}
